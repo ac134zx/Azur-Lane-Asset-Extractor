@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "azspc", "azspc.pyproj", "{21664E91-7CD1-4E1C-8CAD-A81C9CC7C188}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{BAF3C198-0C98-40F9-BE45-695708DB33CA}"
+	ProjectSection(SolutionItems) = preProject
+		is_expd.txt = is_expd.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21664E91-7CD1-4E1C-8CAD-A81C9CC7C188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21664E91-7CD1-4E1C-8CAD-A81C9CC7C188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7021EA1-D345-4AB2-9A5B-342EF5C1C155}
+	EndGlobalSection
+EndGlobal
