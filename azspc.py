@@ -403,16 +403,16 @@ def func_spell(pd,md,opt):
         print(f"Total: {count},fail:{fl},pass:{ps},{t2-t1}")  
 
     func_s_1(pd,md,opt)
-if input('do you want to PULL all file and EXPORT it:(y/n)')=='y':
+if input('do you want to PULL all file and EXPORT it 是否拉取全部资源并解包:(y/n)')=='y':
     func_pull(o1dir,Awdr,a_dir_list)
     export_uty_asst(o1dir,a_dir_list)
     wavf(f'{o1dir}\cue',f'{o1dir}\opt_asst\cue')
-if input('do you want to UPDATE all file and EXPORT it WITHOUT size check:(y/n)')=='y':
+if input('do you want to UPDATE all file and EXPORT it WITHOUT size check 是否以无大小检查的方式更新资源并解包（较快）:(y/n)')=='y':
     c01=func_update(o1dir,Awdr,a_dir_list,1)
     print(c01)
     export_uty_asst(o1dir,a_dir_list,updatefile=c01)
     wavf(f'{o1dir}\cue',f'{o1dir}\opt_asst\cue',updtf=c01)
-if input('do you want to UPDATE all file and EXPORT it WITH size check:(y/n)')=='y':
+if input('do you want to UPDATE all file and EXPORT it WITH size check 是否以大小检查的方式更新资源并解包（较慢）:(y/n)')=='y':
     c01=func_update(o1dir,Awdr,a_dir_list,1,1)
     print(c01)
     export_uty_asst(o1dir,a_dir_list,updatefile=c01)
