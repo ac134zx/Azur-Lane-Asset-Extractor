@@ -217,6 +217,8 @@ def func_update(maindir,aipd,dir_list,shot_opt=0,chk=0):
             f_pud.writelines('\n')
     t2=time.time()
     print(t2-t1)
+    if pulled_file==[]:
+        pulled_file==0
 
     return pulled_file
     
