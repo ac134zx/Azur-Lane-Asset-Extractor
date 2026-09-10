@@ -407,8 +407,13 @@ if input('do you want to PULL all file and EXPORT it:(y/n)')=='y':
     func_pull(o1dir,Awdr,a_dir_list)
     export_uty_asst(o1dir,a_dir_list)
     wavf(f'{o1dir}\cue',f'{o1dir}\opt_asst\cue')
-if input('do you want to UPDATE all file and EXPORT it:(y/n)')=='y':
+if input('do you want to UPDATE all file and EXPORT it WITHOUT size check:(y/n)')=='y':
     c01=func_update(o1dir,Awdr,a_dir_list,1)
+    print(c01)
+    export_uty_asst(o1dir,a_dir_list,updatefile=c01)
+    wavf(f'{o1dir}\cue',f'{o1dir}\opt_asst\cue',updtf=c01)
+if input('do you want to UPDATE all file and EXPORT it WITH size check:(y/n)')=='y':
+    c01=func_update(o1dir,Awdr,a_dir_list,1,1)
     print(c01)
     export_uty_asst(o1dir,a_dir_list,updatefile=c01)
     wavf(f'{o1dir}\cue',f'{o1dir}\opt_asst\cue',updtf=c01)

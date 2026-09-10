@@ -1,2 +1,5 @@
-# Azur-Lane-Asset-Extractor
-A unity asset(mesh,texture2d,live2d) extractor for Azur Lane
+此项目是碧蓝航线美术资源提取的自动脚本，其中包含AssetStudioModCLI，vgmstream以完成工作
+此项目为非专业人士制作，有bug可以提issue，会在一大段时间内处理
+目前可完成的工作:拉取资源并解包，在已有的资源更新(包含文件大小的检查来更新)
+支持的美术资源：live2d，舰船立绘，舰船音频和其他
+会python的可以修改main.py中a_dir_list来拉取其他资源（但一定得是含图片的asset）
